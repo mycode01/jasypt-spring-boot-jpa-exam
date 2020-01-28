@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
+    h2:
+      console:
+        enabled: true
+  datasource:
+    platform: h2
+#  datasource: ### case 3, encrypt properties
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://URL-to-your-mysql/dbname?useSSL=false&serverTimezone=UTC
+#    username: not_encrypted_username
+#    password: ENC(ijY9N4agzA6itmp8fWUZxxdhlo/lQbHvem3GbQc7Guw=) # use --jasypt.encryptor.password=test
+#jasypt:
+#  encryptor:
+#    password: test # or --jasypt.encryptor.password=test
+#    algorithm: PBEWithMD5AndDES ### uncomment on case 3
+#    iv-generator-classname: org.jasypt.iv.NoIvGenerator ### uncomment on case 3
+
+logging.level.org.hibernate.type.descriptor.sql: trace
