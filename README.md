@@ -1,6 +1,6 @@
 # jasypt-spring-boot with JPA exam
 
-Entity 자체에 `@TypeDef` 를 사용하는 방법이 jasypt 공식 페이지에 안내되고 있으나,  
+Entity 자체에 `@TypeDef` 를 사용하는 방법이 [jasypt](http://www.jasypt.org/) 공식 페이지에 안내되고 있으나,  
 여기서 사용하는 `jasypt-spring-boot` 에서는 해당 클래스 타입이 빠져있어서 사용이 안됨.  
 구현하는 방법도 있을거같은데.. 거기까지 하기 귀찮고, @Converter 를 테스트 하는 겸 생성해 봤음.
 
