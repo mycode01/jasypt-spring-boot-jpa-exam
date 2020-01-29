@@ -39,4 +39,4 @@ application.yml에 숨겨야 하는 값이 있을경우 사용하는 방법.\
 oracle jdk 사용시 암호화 방식에서 Exception이 발생한다면 
 [Java Cryptography Extension,JCE Unlimited Strength Jurisdiction Policy, java8](https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)에서 다운로드 후 
 `<JAVA_HOME>/jre/lib/security/policy`에 넣어주고,\
-자바8 업데이트151 이후부터는 `<JAVA_HOME>/jre/lib/security/java.security` 파일의 `crypto.policy=unlimited` 부분이 주석 처리 되어있는데, 해당부분을 주석해제 해주면 된다 함.\
+자바8 업데이트151 이후부터는 다운로드 필요없이 `<JAVA_HOME>/jre/lib/security/java.security` 파일의 `crypto.policy=unlimited` 부분이 주석 처리 되어있는데, 해당부분을 주석해제 해주면 된다 함.
