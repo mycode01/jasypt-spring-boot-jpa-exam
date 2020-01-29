@@ -11,7 +11,7 @@ compile group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', v
 ```
 현 시점(2020-01-28)에서 최신버전인 3.0.2를 추가함.\
 [jasypt-spring-boot github](https://github.com/ulisesbocchio/jasypt-spring-boot) 에서 이야기 하듯이
-`@EnableAutoConfiguration` 을 사용하지 않는다면 `jasypt-spring-boot`를 추가하자.\
+`@EnableAutoConfiguration` 을 사용하지 않는다면 `jasypt-spring-boot`를 추가하자.
 
 ---
 case 1,
